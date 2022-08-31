@@ -1,0 +1,297 @@
+2022/08/31 06:17:03 [notice] 1#1: using the "epoll" event method
+2022/08/31 06:17:03 [notice] 1#1: nginx/1.23.1
+2022/08/31 06:17:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/08/31 06:17:03 [notice] 1#1: OS: Linux 5.10.0-10-amd64
+2022/08/31 06:17:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/31 06:17:03 [notice] 1#1: start worker processes
+2022/08/31 06:17:03 [notice] 1#1: start worker process 24
+2022/08/31 06:17:03 [notice] 1#1: start worker process 25
+2022/08/31 06:27:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/31 06:27:18 [notice] 24#24: gracefully shutting down
+2022/08/31 06:27:18 [notice] 24#24: exiting
+2022/08/31 06:27:18 [notice] 24#24: exit
+2022/08/31 06:27:18 [notice] 25#25: gracefully shutting down
+2022/08/31 06:27:18 [notice] 25#25: exiting
+2022/08/31 06:27:18 [notice] 25#25: exit
+2022/08/31 06:27:18 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/08/31 06:27:18 [notice] 1#1: worker process 25 exited with code 0
+2022/08/31 06:27:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/31 06:27:18 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/08/31 06:27:18 [notice] 1#1: worker process 24 exited with code 0
+2022/08/31 06:27:18 [notice] 1#1: exit
+2022/08/31 06:27:21 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/nginx-proxy.conf:2
+2022/08/31 06:27:22 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/nginx-proxy.conf:2
+2022/08/31 06:27:22 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/nginx-proxy.conf:2
+2022/08/31 06:27:23 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/nginx-proxy.conf:2
+2022/08/31 06:27:24 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/nginx-proxy.conf:2
+2022/08/31 06:27:26 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/nginx-proxy.conf:2
+2022/08/31 06:27:30 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/nginx-proxy.conf:2
+2022/08/31 06:27:37 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/nginx-proxy.conf:2
+2022/08/31 06:29:02 [notice] 1#1: using the "epoll" event method
+2022/08/31 06:29:02 [notice] 1#1: nginx/1.23.1
+2022/08/31 06:29:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/08/31 06:29:02 [notice] 1#1: OS: Linux 5.10.0-10-amd64
+2022/08/31 06:29:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/31 06:29:02 [notice] 1#1: start worker processes
+2022/08/31 06:29:02 [notice] 1#1: start worker process 23
+2022/08/31 06:29:02 [notice] 1#1: start worker process 24
+2022/08/31 06:29:29 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: _, request: "GET /zabbix/ HTTP/1.1", upstream: "http://127.0.0.1:8081/zabbix/", host: "62.84.117.52"
+2022/08/31 06:29:29 [error] 24#24: *2 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.20.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "62.84.117.52", referrer: "http://62.84.117.52/zabbix/"
+2022/08/31 06:29:40 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: _, request: "GET /zabbix/ HTTP/1.1", upstream: "http://127.0.0.1:8081/zabbix/", host: "62.84.117.52"
+2022/08/31 07:22:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/31 07:22:01 [notice] 24#24: gracefully shutting down
+2022/08/31 07:22:01 [notice] 23#23: gracefully shutting down
+2022/08/31 07:22:01 [notice] 24#24: exiting
+2022/08/31 07:22:01 [notice] 23#23: exiting
+2022/08/31 07:22:01 [notice] 24#24: exit
+2022/08/31 07:22:01 [notice] 23#23: exit
+2022/08/31 07:22:01 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/08/31 07:22:01 [notice] 1#1: worker process 23 exited with code 0
+2022/08/31 07:22:01 [notice] 1#1: worker process 24 exited with code 0
+2022/08/31 07:22:01 [notice] 1#1: exit
+2022/08/31 07:22:56 [notice] 1#1: using the "epoll" event method
+2022/08/31 07:22:56 [notice] 1#1: nginx/1.23.1
+2022/08/31 07:22:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/08/31 07:22:56 [notice] 1#1: OS: Linux 5.10.0-10-amd64
+2022/08/31 07:22:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/31 07:22:56 [notice] 1#1: start worker processes
+2022/08/31 07:22:56 [notice] 1#1: start worker process 24
+2022/08/31 07:22:56 [notice] 1#1: start worker process 25
+2022/08/31 07:23:08 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: _, request: "GET /zabbix/ HTTP/1.1", upstream: "http://127.0.0.1:8081/zabbix/", host: "62.84.117.52"
+2022/08/31 07:23:10 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: _, request: "GET /zabbix/ HTTP/1.1", upstream: "http://127.0.0.1:8081/zabbix/", host: "62.84.117.52"
+2022/08/31 07:23:13 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: _, request: "GET /zabbix/ HTTP/1.1", upstream: "http://127.0.0.1:8081/zabbix/", host: "62.84.117.52"
+2022/08/31 07:24:10 [error] 25#25: *6 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.22.0.1, server: _, request: "GET / HTTP/1.1", host: "62.84.117.52"
+2022/08/31 07:29:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/31 07:29:49 [notice] 24#24: gracefully shutting down
+2022/08/31 07:29:49 [notice] 25#25: gracefully shutting down
+2022/08/31 07:29:49 [notice] 24#24: exiting
+2022/08/31 07:29:49 [notice] 25#25: exiting
+2022/08/31 07:29:49 [notice] 24#24: exit
+2022/08/31 07:29:49 [notice] 25#25: exit
+2022/08/31 07:29:49 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/08/31 07:29:49 [notice] 1#1: worker process 24 exited with code 0
+2022/08/31 07:29:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/31 07:29:49 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/08/31 07:29:49 [notice] 1#1: worker process 25 exited with code 0
+2022/08/31 07:29:49 [notice] 1#1: exit
+2022/08/31 07:29:50 [notice] 1#1: using the "epoll" event method
+2022/08/31 07:29:50 [notice] 1#1: nginx/1.23.1
+2022/08/31 07:29:50 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/08/31 07:29:50 [notice] 1#1: OS: Linux 5.10.0-10-amd64
+2022/08/31 07:29:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/31 07:29:50 [notice] 1#1: start worker processes
+2022/08/31 07:29:50 [notice] 1#1: start worker process 23
+2022/08/31 07:29:50 [notice] 1#1: start worker process 24
+2022/08/31 07:49:31 [error] 24#24: *14 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.22.0.1, server: _, request: "GET http://example.com/ HTTP/1.1", host: "example.com"
+2022/08/31 07:52:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/31 07:52:27 [notice] 24#24: gracefully shutting down
+2022/08/31 07:52:27 [notice] 23#23: gracefully shutting down
+2022/08/31 07:52:27 [notice] 24#24: exiting
+2022/08/31 07:52:27 [notice] 23#23: exiting
+2022/08/31 07:52:27 [notice] 24#24: exit
+2022/08/31 07:52:27 [notice] 23#23: exit
+2022/08/31 07:52:27 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/08/31 07:52:27 [notice] 1#1: worker process 23 exited with code 0
+2022/08/31 07:52:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/31 07:52:27 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/08/31 07:52:27 [notice] 1#1: worker process 24 exited with code 0
+2022/08/31 07:52:27 [notice] 1#1: exit
+2022/08/31 07:52:28 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:36
+2022/08/31 07:52:28 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 07:52:28 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:36
+2022/08/31 07:52:28 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 07:52:29 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:36
+2022/08/31 07:52:29 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 07:52:30 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:36
+2022/08/31 07:52:30 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 07:52:31 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:36
+2022/08/31 07:52:31 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 07:52:33 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:36
+2022/08/31 07:52:33 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 07:52:37 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:36
+2022/08/31 07:52:37 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 07:52:43 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:36
+2022/08/31 07:52:43 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 07:52:56 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:36
+2022/08/31 07:52:56 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 07:53:08 [notice] 1#1: using the "epoll" event method
+2022/08/31 07:53:08 [notice] 1#1: nginx/1.23.1
+2022/08/31 07:53:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/08/31 07:53:08 [notice] 1#1: OS: Linux 5.10.0-10-amd64
+2022/08/31 07:53:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/31 07:53:08 [notice] 1#1: start worker processes
+2022/08/31 07:53:08 [notice] 1#1: start worker process 23
+2022/08/31 07:53:08 [notice] 1#1: start worker process 24
+2022/08/31 07:55:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/31 07:55:59 [notice] 23#23: gracefully shutting down
+2022/08/31 07:55:59 [notice] 24#24: gracefully shutting down
+2022/08/31 07:55:59 [notice] 23#23: exiting
+2022/08/31 07:55:59 [notice] 24#24: exiting
+2022/08/31 07:55:59 [notice] 23#23: exit
+2022/08/31 07:55:59 [notice] 24#24: exit
+2022/08/31 07:55:59 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/08/31 07:55:59 [notice] 1#1: worker process 23 exited with code 0
+2022/08/31 07:55:59 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/31 07:55:59 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/08/31 07:55:59 [notice] 1#1: worker process 24 exited with code 0
+2022/08/31 07:55:59 [notice] 1#1: exit
+2022/08/31 07:55:59 [notice] 1#1: using the "epoll" event method
+2022/08/31 07:55:59 [notice] 1#1: nginx/1.23.1
+2022/08/31 07:55:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/08/31 07:55:59 [notice] 1#1: OS: Linux 5.10.0-10-amd64
+2022/08/31 07:55:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/31 07:55:59 [notice] 1#1: start worker processes
+2022/08/31 07:55:59 [notice] 1#1: start worker process 24
+2022/08/31 07:55:59 [notice] 1#1: start worker process 25
+2022/08/31 07:57:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/31 07:57:17 [notice] 25#25: gracefully shutting down
+2022/08/31 07:57:17 [notice] 24#24: gracefully shutting down
+2022/08/31 07:57:17 [notice] 25#25: exiting
+2022/08/31 07:57:17 [notice] 24#24: exiting
+2022/08/31 07:57:17 [notice] 25#25: exit
+2022/08/31 07:57:17 [notice] 24#24: exit
+2022/08/31 07:57:17 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/08/31 07:57:17 [notice] 1#1: worker process 24 exited with code 0
+2022/08/31 07:57:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/31 07:57:17 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/08/31 07:57:17 [notice] 1#1: worker process 25 exited with code 0
+2022/08/31 07:57:17 [notice] 1#1: exit
+2022/08/31 07:57:18 [notice] 1#1: using the "epoll" event method
+2022/08/31 07:57:18 [notice] 1#1: nginx/1.23.1
+2022/08/31 07:57:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/08/31 07:57:18 [notice] 1#1: OS: Linux 5.10.0-10-amd64
+2022/08/31 07:57:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/31 07:57:18 [notice] 1#1: start worker processes
+2022/08/31 07:57:18 [notice] 1#1: start worker process 24
+2022/08/31 07:57:18 [notice] 1#1: start worker process 25
+2022/08/31 08:06:27 [error] 25#25: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: zabbix, request: "GET /zabbix/ HTTP/1.1", upstream: "http://172.22.0.2:8080/zabbix/", host: "62.84.117.52"
+2022/08/31 08:06:33 [error] 25#25: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: zabbix, request: "GET /zabbix/ HTTP/1.1", upstream: "http://172.22.0.2:8080/zabbix/", host: "62.84.117.52"
+2022/08/31 08:07:16 [error] 24#24: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: zabbix, request: "GET /zabbix/ HTTP/1.1", upstream: "http://172.22.0.2:8080/zabbix/", host: "62.84.117.52"
+2022/08/31 08:07:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/31 08:07:34 [notice] 25#25: gracefully shutting down
+2022/08/31 08:07:34 [notice] 25#25: exiting
+2022/08/31 08:07:34 [notice] 24#24: gracefully shutting down
+2022/08/31 08:07:34 [notice] 24#24: exiting
+2022/08/31 08:07:34 [notice] 25#25: exit
+2022/08/31 08:07:34 [notice] 24#24: exit
+2022/08/31 08:07:34 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/08/31 08:07:34 [notice] 1#1: worker process 25 exited with code 0
+2022/08/31 08:07:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/31 08:07:34 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/08/31 08:07:34 [notice] 1#1: worker process 24 exited with code 0
+2022/08/31 08:07:34 [notice] 1#1: exit
+2022/08/31 08:07:35 [notice] 1#1: using the "epoll" event method
+2022/08/31 08:07:35 [notice] 1#1: nginx/1.23.1
+2022/08/31 08:07:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/08/31 08:07:35 [notice] 1#1: OS: Linux 5.10.0-10-amd64
+2022/08/31 08:07:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/31 08:07:35 [notice] 1#1: start worker processes
+2022/08/31 08:07:35 [notice] 1#1: start worker process 22
+2022/08/31 08:07:35 [notice] 1#1: start worker process 23
+2022/08/31 08:15:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/31 08:15:44 [notice] 23#23: gracefully shutting down
+2022/08/31 08:15:44 [notice] 23#23: exiting
+2022/08/31 08:15:44 [notice] 23#23: exit
+2022/08/31 08:15:44 [notice] 22#22: gracefully shutting down
+2022/08/31 08:15:44 [notice] 22#22: exiting
+2022/08/31 08:15:44 [notice] 22#22: exit
+2022/08/31 08:15:44 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/08/31 08:15:44 [notice] 1#1: worker process 22 exited with code 0
+2022/08/31 08:15:44 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/08/31 08:15:44 [notice] 1#1: worker process 23 exited with code 0
+2022/08/31 08:15:44 [notice] 1#1: exit
+2022/08/31 08:15:45 [notice] 1#1: using the "epoll" event method
+2022/08/31 08:15:45 [notice] 1#1: nginx/1.23.1
+2022/08/31 08:15:45 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/08/31 08:15:45 [notice] 1#1: OS: Linux 5.10.0-10-amd64
+2022/08/31 08:15:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/31 08:15:45 [notice] 1#1: start worker processes
+2022/08/31 08:15:45 [notice] 1#1: start worker process 24
+2022/08/31 08:15:45 [notice] 1#1: start worker process 25
+2022/08/31 08:16:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/31 08:16:49 [notice] 25#25: gracefully shutting down
+2022/08/31 08:16:49 [notice] 25#25: exiting
+2022/08/31 08:16:49 [notice] 25#25: exit
+2022/08/31 08:16:49 [notice] 24#24: gracefully shutting down
+2022/08/31 08:16:49 [notice] 24#24: exiting
+2022/08/31 08:16:49 [notice] 24#24: exit
+2022/08/31 08:16:49 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/08/31 08:16:49 [notice] 1#1: worker process 25 exited with code 0
+2022/08/31 08:16:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/31 08:16:49 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/08/31 08:16:49 [notice] 1#1: worker process 24 exited with code 0
+2022/08/31 08:16:49 [notice] 1#1: exit
+2022/08/31 08:16:50 [notice] 1#1: using the "epoll" event method
+2022/08/31 08:16:50 [notice] 1#1: nginx/1.23.1
+2022/08/31 08:16:50 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/08/31 08:16:50 [notice] 1#1: OS: Linux 5.10.0-10-amd64
+2022/08/31 08:16:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/31 08:16:50 [notice] 1#1: start worker processes
+2022/08/31 08:16:50 [notice] 1#1: start worker process 24
+2022/08/31 08:16:50 [notice] 1#1: start worker process 25
+2022/08/31 08:16:53 [warn] 25#25: *9 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 172.22.0.1, server: _, request: "GET /zabbix/jsLoader.php?lang=en_US&ver=6.2.1&showGuiMessaging=1 HTTP/1.1", upstream: "http://172.22.0.4:8080/jsLoader.php?lang=en_US&ver=6.2.1&showGuiMessaging=1", host: "62.84.117.52", referrer: "http://62.84.117.52/zabbix/zabbix.php?action=dashboard.view"
+2022/08/31 08:16:54 [warn] 25#25: *7 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 172.22.0.1, server: _, request: "GET /zabbix/jsLoader.php?ver=6.2.1&lang=en_US&files%5B0%5D=flickerfreescreen.js&files%5B1%5D=gtlc.js&files%5B2%5D=leaflet.js&files%5B3%5D=leaflet.markercluster.js&files%5B4%5D=class.dashboard.js&files%5B5%5D=class.dashboard.page.js&files%5B6%5D=class.dashboard.widget.placeholder.js&files%5B7%5D=class.geomaps.js&files%5B8%5D=class.widget.js&files%5B9%5D=class.widget.iterator.js&files%5B10%5D=class.widget.clock.js&files%5B11%5D=class.widget.geomap.js&files%5B12%5D=class.widget.graph.js&files%5B13%5D=class.widget.graph-prototype.js&files%5B14%5D=class.widget.item.js&files%5B15%5D=class.widget.map.js&files%5B16%5D=class.widget.navtree.js&files%5B17%5D=class.widget.paste-placeholder.js&files%5B18%5D=class.widget.problems.js&files%5B19%5D=class.widget.problemsbysv.js&files%5B20%5D=class.widget.svggraph.js&files%5B21%5D=class.widget.trigerover.js&files%5B22%5D=class.calendar.js&files%5B23%5D=layout.mode.js&files%5B24%5D=class.coverride.js&files%5B25%5D=class.crangecontrol.js&files%5B26%5D=colorpicker.js&files%5B27%5D=class.csvggraph.js&files%5B28%5D=class.cnavtree.js&files%5B29%5D=class.svg.canvas.js&files%5B30%5D=class.svg.map.js&files%5B31%5D=class.tagfilteritem.js&files%5B32%5D=class.sortable.js&files%5B33%5D=servercheck.js HTTP/1.1", upstream: "http://172.22.0.4:8080/jsLoader.php?ver=6.2.1&lang=en_US&files%5B0%5D=flickerfreescreen.js&files%5B1%5D=gtlc.js&files%5B2%5D=leaflet.js&files%5B3%5D=leaflet.markercluster.js&files%5B4%5D=class.dashboard.js&files%5B5%5D=class.dashboard.page.js&files%5B6%5D=class.dashboard.widget.placeholder.js&files%5B7%5D=class.geomaps.js&files%5B8%5D=class.widget.js&files%5B9%5D=class.widget.iterator.js&files%5B10%5D=class.widget.clock.js&files%5B11%5D=class.widget.geomap.js&files%5B12%5D=class.widget.graph.js&files%5B13%5D=class.widget.graph-prototype.js&files%5B14%5D=class.widget.item.js&files
+2022/08/31 08:19:43 [error] 25#25: *86 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.22.0.1, server: _, request: "GET / HTTP/1.0"
+2022/08/31 08:21:37 [error] 25#25: *130 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.22.0.1, server: _, request: "GET / HTTP/1.1", host: "62.84.117.52"
+2022/08/31 08:21:37 [error] 25#25: *131 open() "/etc/nginx/html/Public/home/js/check.js" failed (2: No such file or directory), client: 172.22.0.1, server: _, request: "GET /Public/home/js/check.js HTTP/1.1", host: "62.84.117.52"
+2022/08/31 08:21:37 [error] 25#25: *132 open() "/etc/nginx/html/static/admin/javascript/hetong.js" failed (2: No such file or directory), client: 172.22.0.1, server: _, request: "GET /static/admin/javascript/hetong.js HTTP/1.1", host: "62.84.117.52"
+2022/08/31 08:24:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/31 08:24:14 [notice] 24#24: gracefully shutting down
+2022/08/31 08:24:14 [notice] 25#25: gracefully shutting down
+2022/08/31 08:24:14 [notice] 25#25: exiting
+2022/08/31 08:24:14 [notice] 24#24: exiting
+2022/08/31 08:24:14 [notice] 25#25: exit
+2022/08/31 08:24:14 [notice] 24#24: exit
+2022/08/31 08:24:14 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/08/31 08:24:14 [notice] 1#1: worker process 24 exited with code 0
+2022/08/31 08:24:14 [notice] 1#1: worker process 25 exited with code 0
+2022/08/31 08:24:14 [notice] 1#1: exit
+2022/08/31 08:24:15 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:34
+2022/08/31 08:24:15 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 08:24:16 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:34
+2022/08/31 08:24:16 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 08:24:16 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:34
+2022/08/31 08:24:16 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 08:24:17 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:34
+2022/08/31 08:24:17 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 08:24:18 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:34
+2022/08/31 08:24:18 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 08:24:20 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:34
+2022/08/31 08:24:20 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 08:24:24 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:34
+2022/08/31 08:24:24 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 08:24:31 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:34
+2022/08/31 08:24:31 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 08:24:44 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:34
+2022/08/31 08:24:44 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 08:25:10 [warn] 1#1: "proxy_send_lowat" is not supported, ignored in /etc/nginx/conf.d/nginx-proxy.conf:34
+2022/08/31 08:25:10 [emerg] 1#1: mkdir() "/var/nginx/client_body_temp" failed (2: No such file or directory)
+2022/08/31 08:26:02 [notice] 1#1: using the "epoll" event method
+2022/08/31 08:26:02 [notice] 1#1: nginx/1.23.1
+2022/08/31 08:26:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/08/31 08:26:02 [notice] 1#1: OS: Linux 5.10.0-10-amd64
+2022/08/31 08:26:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/31 08:26:02 [notice] 1#1: start worker processes
+2022/08/31 08:26:02 [notice] 1#1: start worker process 23
+2022/08/31 08:26:02 [notice] 1#1: start worker process 24
+2022/08/31 08:26:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/31 08:26:02 [notice] 23#23: gracefully shutting down
+2022/08/31 08:26:02 [notice] 23#23: exiting
+2022/08/31 08:26:02 [notice] 23#23: exit
+2022/08/31 08:26:02 [notice] 24#24: gracefully shutting down
+2022/08/31 08:26:02 [notice] 24#24: exiting
+2022/08/31 08:26:02 [notice] 24#24: exit
+2022/08/31 08:26:02 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/08/31 08:26:02 [notice] 1#1: worker process 24 exited with code 0
+2022/08/31 08:26:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/31 08:26:02 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/08/31 08:26:02 [notice] 1#1: worker process 23 exited with code 0
+2022/08/31 08:26:02 [notice] 1#1: exit
+2022/08/31 08:26:03 [notice] 1#1: using the "epoll" event method
+2022/08/31 08:26:03 [notice] 1#1: nginx/1.23.1
+2022/08/31 08:26:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/08/31 08:26:03 [notice] 1#1: OS: Linux 5.10.0-10-amd64
+2022/08/31 08:26:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/31 08:26:03 [notice] 1#1: start worker processes
+2022/08/31 08:26:03 [notice] 1#1: start worker process 25
+2022/08/31 08:26:03 [notice] 1#1: start worker process 26
