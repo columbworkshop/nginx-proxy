@@ -1,0 +1,23 @@
+version: '3.3'
+services:
+    nginx:
+      image: nginx:latest
+      container_name: nginx
+      restart: unless-stopped
+      ports:
+        - "80:80"
+        - "443:443"
+      volumes:
+        - ./www:/var/www/html
+        - ./config/nginx:/etc/nginx/conf.d
+        - ./logs/nginx:/var/log/nginx
+        - ./ssl:/etc/nginx/ssl
+        - /etc/localtime:/etc/localtime:ro
+      networks:
+        - network01
+
+
+# networks
+networks:
+  network01:
+    driver: bridge
